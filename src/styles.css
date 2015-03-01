@@ -1,0 +1,110 @@
+BorderPane {
+    -fx-padding: 10px;
+    -fx-background-image: url("background2.jpg");
+}
+
+ScrollPane {
+    -fx-fit-to-width: true;
+    -fx-fit-to-height: true;
+    -fx-padding: 5;
+    -fx-min-height: 350;
+    -fx-max-height: 350;
+    -fx-focus-traversable: false;
+}
+
+StackPane {
+    -fx-alignment: center;
+}
+
+HBox {
+    -fx-alignment: center;
+    -fx-spacing: 10;
+}
+
+VBox {
+    -fx-spacing: 10;
+}
+
+Button {
+    -fx-cursor: hand;
+}
+
+Label {
+    -fx-font-family: 'Lilita One';
+    -fx-font-size: 14pt;
+}
+
+GridPane {
+    -fx-padding: 1;
+    -fx-vgap: 1;
+    -fx-hgap: 1;
+    -fx-grid-lines-visible: false;
+    -fx-background-color: black;
+    -fx-fit-to-width: true;
+    -fx-fit-to-height: true;
+}
+
+DatePicker {
+    -fx-min-width: 250;
+    
+}
+
+GridPane HBox {
+    -fx-background-color: white;
+    -fx-padding: 2 10;
+}
+
+GridPane Label {
+    -fx-font-family: 'Lilita One';
+    -fx-font-size: 12pt;
+}
+
+GridPane TextField {
+    -fx-min-width: 60;
+    -fx-max-width: 60;
+
+}
+
+ProgressIndicator {
+    -fx-max-width: 80;
+}
+
+#top Text {
+    -fx-font-family: 'Luckiest Guy';
+    -fx-font-size: 32pt;
+}
+
+#top {
+    -fx-padding: 10;
+    
+}
+
+#data VBox HBox Text {
+    -fx-font-family: 'Luckiest Guy';
+    -fx-font-size: 18pt;
+}
+
+#data VBox VBox Text {
+    -fx-font-family: 'Lilita One';
+    -fx-font-size: 14pt;
+}
+
+#data DatePicker Text {
+    -fx-font-family: 'Lilita One';
+    -fx-font-size: 12pt;
+}
+
+#data TextField {
+    -fx-min-width: 280;
+    -fx-max-width: 280;
+}
+
+#teams HBox {
+    -fx-alignment: center-left;
+}
+
+#dates HBox {
+    -fx-alignment: center-left;
+}
+    
+
